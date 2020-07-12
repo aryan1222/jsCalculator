@@ -30,6 +30,7 @@ equal.addEventListener('click',calculate);
 function clear(){
     history.textContent = '';
     input.textContent = '';
+    exp = '';
 }
 
 function deleteItem(){

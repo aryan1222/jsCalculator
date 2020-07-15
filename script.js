@@ -39,6 +39,9 @@ function deleteItem(){
 }
 
 function append(item){
+    if(item === '.' && exp.includes('.')){
+        return;
+    }
     exp +=item;
     input.textContent = exp;
 }
